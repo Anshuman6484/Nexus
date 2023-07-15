@@ -1,0 +1,151 @@
+/* navbar */
+
+#top_nav{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.nav-link{
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.navbar-brand{
+    text-align: -webkit-center;
+    width: 8%;
+}
+
+#searchbox{
+    background: transparent;
+    border-radius: 10px;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+#searchbtn{
+    border-radius: 10px;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.form-control::placeholder{
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 992px){
+    .navbar-brand{
+        width: 20%;
+    }
+
+    #searchform{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        left: -5px;
+    }
+}
+
+#btnglow{
+    text-decoration: none;
+    padding: 2px 3px;
+    color: cyan;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    transition: color 0.3s;
+    box-shadow: 0.3s;
+    border-color: cyan;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+#btnglow:hover{
+    box-shadow: 
+    0 0 10px rgba(0,255,255,1),
+    0 0 40px rgba(0,255,255,0.7);
+    border-color: #00ffff;
+    color: #00ffff;
+}
+
+.space{
+    margin-bottom: 50px;
+}
+
+/* description of website */
+
+#banner{
+    background-image: url('sec-bg.jpg');    
+}
+
+#bannertext{
+    margin-bottom: 10px;
+}
+
+#bannertext h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bannerbtn1{
+    border: 2px solid rgb(12, 12, 67);
+}
+
+#bannerbtn2{
+    border: 2px solid rgb(12, 12, 67);
+    margin-left: 15px;
+}
+
+/* slider */
+
+@media only screen and (max-width: 768px){
+    .carousel-item{
+        height: 200px;
+    } 
+    .carousel-item img{
+        height: 200px;
+    }
+}
+
+
+#items-list{
+    background-image: url('sec-bg.jpg');
+}
+
+#buy-section{
+    background-image: url('sec-bg.jpg');
+    margin-bottom: 15px;
+}
+
+#buy-text{
+    margin-bottom: 15px;
+}
+
+#sell-section{
+    background-image: url('sec-bg-sell.jpg');
+    margin-bottom: 15px;
+}
+
+#sell-text{
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px){
+    #sell-section{
+        flex-direction: column-reverse;
+    }
+}
+
+/* footer-section */
+
+#footer1{
+    background-image: url('sec-bg-footer.jpg');
+}

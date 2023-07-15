@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c9d91500e7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>NEXUS</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark space" data-bs-theme="dark"
+    id="top_nav">
+    <div class="container-fluid">
+      <a class="navbar-brand text-info" href="#">
+        <img src="Buy & Sell logo.jpg" alt="" class="img-fluid rounded" id="nav_img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><strong>About</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services"><strong>Services</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><strong>Contact Us</strong></a>
+          </li>
+          <li>
+            <a href="#buy">
+              <button type="button" class="btn btn-info" id="btnglow">Buy</button>
+            </a>
+          </li>
+          <li>
+            <a href="#sell">
+              <button type="button" class="btn btn-info" id="btnglow">Sell</button>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" id="searchform">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchbox">
+          <button class="btn btn-outline-success" type="submit" id="searchbtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- description of website -->
+  <div class="container-fluid space">
+    <div class="row justify-content-center" id="banner">
+      <div class="col-md-6" id="bannertext">
+        <h1 class="text-dark">Handicraft<br>Products</h1>
+        <p class="text-dark">
+          "India is the nation of villages and the soul of India lives in its villages."<br>
+          This statement by Mahatma Gandhi has become outdated now, because it is nearly immpossible to find a pure handmade craft made by the villagers. We at <strong>"Buy And Sell"</strong> provide you the facility to reach out to the original handmade crafts.
+        </p>
+        <button type="button" class="btn btn-info" id="bannerbtn1">Login</button>
+        <button type="button" class="btn btn-light" id="bannerbtn2">Sign Up</button>
+      </div>
+      <div class="col-md-4 d-flex align-items-center" id="bannerimg">
+        <img src="banner-img.jpg" class="img-fluid" alt="Banner-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- slider -->
+  <div id="carouselExampleAutoplaying" class="carousel slide space" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img-3.jpg" class="d-block w-100" alt="Image-1">
+      </div>
+      <div class="carousel-item">
+        <img src="img-2.jpg" class="d-block w-100" alt="Image-2">
+      </div>
+      <div class="carousel-item">
+        <img src="img-1.jpg" class="d-block w-100" alt="Image-3">
+      </div>
+      <div class="carousel-item">
+        <img src="img-4.jpg" class="d-block w-100" alt="Image-4">
+      </div>
+      <div class="carousel-item">
+        <img src="img-5.jpg" class="d-block w-100" alt="Image-5">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- items-list -->
+  <div class="container-fluid space" id="services">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="display-6 text-center mt-5 mb-2">
+          Handicrafts may be used in every fields.<br>
+          Some of them are :
+        </h3>
+      </div>
+    </div>
+    <div class="row justify-content-evenly pt-3 pb-3">
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="fa-solid fa-basket-shopping fa-beat-fade text-danger"></i></h1>
+        <h5>Bamboo Products</h5>
+        <p>These are one of the most important and useful handicrafts used by almost every Indian. In villages bamboo products are used for storing things, carrying and cleaning houses. In bamboo products we provide baskets, brooms, soops, etc.
+        </p>
+      </div>
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="fa-solid fa-toilet fa-beat-fade text-success"></i></h1>
+        <h5>Pottery</h5>
+        <p>In India about 70% people are not economically able to buy a refrigerator. They use handmade pots to get cold water in the summer season and now-a-days it is the demand of time ot stop using refrigerators as it affects the ecosystem.<br>
+        Handmade statues are used in every corner of the country for worshiping in the festivals. We provide finest pottery and beautiful statues.</p>
+      </div>
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="fa-solid fa-explosion fa-beat-fade text-primary"></i></h1>
+        <h5>Home Decor</h5>
+        <p>Either it is a family funtion time or a social gathering or any festival decoration is done heartily to make houses look beautiful. We provide handmade attractive <strong>"Jhalar's(Toran)"</strong> to decorate houses.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- buy-section -->
+  <div class="container-fluid space" id="buy">
+    <div class="row justify-content-center" id="buy-section">
+      <div class="col-md-6 align-self-center" id="buy-text">
+        <h1>BUY</h1>
+        <p>Buy Indian handicrafts online. Traditional & authentic handicraft items - wooden, terracotta and ceramic.<br>&#9830COD Available<br>&#9830Free Shipping<br>&#9830Traditional Crafts of India</p>
+        <button type="button" class="btn btn-info" id="bannerbtn1">Buy</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo beatae eius error dolore consequatur repellat! Nesciunt adipisci eligendi, quasi reiciendis a iusto temporibus perspiciatis enim aspernatur. Et possimus beatae vero, officiis explicabo aliquid nobis consectetur natus asperiores amet tenetur esse cum? Ad, minus! Commodi sit error inventore iure blanditiis ullam hic consequuntur cum quod adipisci placeat, totam vitae rem magnam harum officiis minus, nesciunt necessitatibus? Possimus sequi dicta inventore nam facere, cupiditate blanditiis accusantium minima, cum consequatur sapiente iure officia ad sint quaerat itaque. Quis eius eveniet ipsum ea officia ipsam eligendi architecto nihil, consequuntur provident dolorem, sequi eum tempora, maxime voluptatum ad accusantium laudantium aperiam cum optio earum distinctio! Odio, sunt beatae aut repudiandae voluptatum reprehenderit eligendi aliquid, et laudantium asperiores tenetur adipisci impedit iure quod sapiente ducimus molestiae dicta, voluptate nemo magnam maiores autem. Repellat fugiat dolore, vero voluptatum dignissimos nemo autem, praesentium ex debitis explicabo libero tempore quas? Blanditiis repellendus officia non dolore facilis distinctio aliquid placeat aspernatur veritatis consectetur, adipisci, nostrum accusantium ab eum suscipit error rem sunt, temporibus possimus! Distinctio harum pariatur officiis quisquam nostrum eveniet totam iste aperiam dolore porro eligendi, animi maiores sequi sunt similique nulla reiciendis molestiae, aliquam provident debitis iure.</p>
+      </div>
+      <div class="col-md-4 d-flex align-items-center">
+        <img src="des-img-1.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- sell-section -->
+  <div class="container-fluid space mt-8" id="sell">
+    <div class="row justify-content-center" id="sell-section">
+      <div class="col-md-4 d-flex align-items-center">
+        <img src="nav_bg.webp" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-6 text-end align-self-center" id="sell-text">
+        <h1>SELL</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est excepturi fugit odit nemo officiis ratione sed velit commodi, ipsa provident vel doloribus ducimus iusto nam sequi nostrum repudiandae sunt debitis dolorum maiores. Minus vel recusandae sapiente odit non exercitationem, veritatis deleniti illo, beatae quae nam minima blanditiis maiores fuga consequatur suscipit nostrum dolore nobis dicta. Itaque aliquam accusamus voluptate minus quis atque sed incidunt reiciendis aut, ullam fugiat excepturi, illo aliquid sint quos a accusantium repellat vitae molestiae soluta qui reprehenderit quasi et! Dolore maxime totam reprehenderit adipisci eius iste similique ea atque explicabo cumque dicta itaque vitae quidem voluptates, provident a eum ratione. Voluptas fuga numquam deserunt, asperiores saepe aliquam delectus inventore laboriosam nostrum corrupti corporis incidunt, cum doloremque minus cumque enim eaque tempore modi? Aut quas ea quae. Aspernatur sit ex quo dolorum earum dignissimos assumenda dolore fugit iste nostrum tenetur veniam similique magnam impedit nesciunt harum, totam nobis repudiandae accusamus enim! Dolorem impedit, voluptatum architecto pariatur, fugit cum enim rem aliquam facilis voluptatem explicabo reiciendis similique rerum quos laudantium officiis nesciunt esse veniam repudiandae deserunt ducimus odit? Animi, ex ea iusto, quisquam recusandae explicabo non sed tempora rerum rem vero ad impedit blanditiis nobis optio velit? Eius.</p>
+        <button type="button" class="btn btn-info" id="bannerbtn1">Sell</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="text-center text-lg-start text-muted" id="footer1">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Buy & Sell
+            </h6>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Laravel</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Help</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>Bit Sindri, Dhanbad</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              buyandsell@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>9876543210</p>
+            <p><i class="fas fa-print me-3"></i>1234567890</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © Copyright:
+      <a class="text-reset fw-bold" href="#">buyandsell.com</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

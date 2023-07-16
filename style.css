@@ -23,6 +23,7 @@
 }
 
 #searchbtn{
+    padding: 5px 20px;
     border-radius: 10px;
     color: #ffffff;
     border-color: #ffffff;
@@ -47,7 +48,7 @@
 
 #btnglow{
     text-decoration: none;
-    padding: 2px 3px;
+    padding: 5px 15px;
     color: cyan;
     border: 2px solid cyan;
     border-radius: 5px;
@@ -97,10 +98,12 @@
 
 #bannerbtn1{
     border: 2px solid rgb(12, 12, 67);
+    padding: 5px 20px;
 }
 
 #bannerbtn2{
     border: 2px solid rgb(12, 12, 67);
+    padding: 5px 20px;
     margin-left: 15px;
 }
 
